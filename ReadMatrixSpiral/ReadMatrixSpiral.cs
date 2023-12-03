@@ -42,7 +42,7 @@
                     currentColumn--;
 
                 //Прверка завершился ли прямоугольник? Нужно ли проходить по меньшему прямоугольнику? Если да, то увеличиваем отступ
-                if ((currentColumn == offset + 1) && (currentRow == offset) && (offset != rows - offset - 1))\
+                if ((currentColumn == offset + 1) && (currentRow == offset) && (offset != rows - offset - 1))
                     offset++;
 
                 itemsRead++;
